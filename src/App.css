@@ -1,0 +1,42 @@
+.C1 {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.C1 h1 {
+  text-align: center;
+  color: #007bff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.C1 nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.C1 nav a {
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  color: #007bff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.C1 nav a:hover {
+  background-color: #d0d7de;
+  color: #0056b3;
+}
+
+.C1 .content {
+  padding: 1rem;
+}
